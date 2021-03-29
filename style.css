@@ -1,0 +1,146 @@
+html, body {
+  margin: 0;
+  padding: 0;
+    overflow: hidden;
+}
+
+element.style {
+    outline: none;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border: 0px;
+    font-weight: bold;
+    text-shadow: rgb(0 0 0 / 70%) 0px 1px 1px;
+    background-color: rgb(58, 58, 140);
+}
+canvas {
+  display: block;
+}
+
+.dg.main.taller-than-window .close-button {
+    border-top: 1px solid #ddd;
+}
+
+.dg.main .close-button {
+    background: none;
+}
+ 
+.dg.main .close-button:hover {
+    background-color: #ffd900;
+    border-bottom: 1px solid #ddd;
+    border-radius: 50px;
+}
+
+.dg {
+    color: #ffd900;
+    font: 11px 'Fredoka One';
+    font-family: 'Fredoka One', cursive;
+    text-shadow: 0 -1px 0 #111;
+}
+
+.dg {
+    color: #ffd900;
+     text-shadow: 0 1px 0 #000, 0 -1px 0 #000, -1px 0 0 #000, 1px 0 0 #000;
+}
+
+.dg.main::-webkit-scrollbar {
+    background: #ffd900;
+}
+
+.dg.main::-webkit-scrollbar-thumb {
+    background: #bbb;
+}
+ 
+.dg li:not(.folder) {
+        background: none;
+    border-bottom: none;
+    border-radius: 10px;
+}
+ 
+.dg li.save-row .button {
+    text-shadow: none !important;
+}
+
+.dg li.title {
+    background: none;
+}
+
+.dg .cr.function:hover,.dg .cr.boolean:hover {
+    background: #fff;
+     border-radius: 50px;
+}
+ 
+.dg .c input[type=text] {
+    background: #e9e9e9;
+     border-radius: 50px;
+    font-family: 'Fredoka One', sans-serif;
+  color: #ff9500;
+  font-size: 12px;
+  font-weight: 400;
+    
+    
+}
+ 
+.dg .c input[type=text]:hover {
+    background: #eee;
+}
+ 
+.dg .c input[type=text]:focus {
+    background: #eee;
+    color: #555;
+}
+ 
+.dg .c .slider {
+    background: #e9e9e9;
+     border-radius: 50px;
+    
+}
+.dg .c .slider-fg {
+    background: #e9e9e9;
+     border-radius: 50px;
+}
+
+.dg .c .slider:hover {
+    background: #eee;
+     border-radius: 50px;
+}
+
+.container {
+  max-height: 50px;
+  max-width: 940px;
+  margin-top: 0px;
+  padding: 0px 0px 0px;
+}
+
+.heading {
+  border: 0px solid transparent;
+  border-radius: 0px;
+  background-color: transparent;
+  font-family: Oi, sans-serif;
+  color: #ffd900;
+  font-size: 45px;
+  line-height: 40px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: lowercase;
+    text-shadow: 0 1px 0 #000, 0 -1px 0 #000, -1px 0 0 #000, 1px 0 0 #000;
+  white-space: normal;
+  background-clip: border-box;
+}
+
+.paragraph {
+  margin-top: -15px;
+  padding-top: 0px;
+  padding-left: 33px;
+  font-family: 'Fredoka One', sans-serif;
+  color: #ff9500;
+  font-size: 20px;
+  font-weight: 400;
+    text-shadow: 0 1px 0 #000, 0 -1px 0 #000, -1px 0 0 #000, 1px 0 0 #000;
+
+}
+
+.body {
+  color: #ffa600;
+}
