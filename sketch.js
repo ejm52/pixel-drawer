@@ -67,6 +67,3 @@ function Gui(){
 function update(){
   redraw();
 }
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
-}
